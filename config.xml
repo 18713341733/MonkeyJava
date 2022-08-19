@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gbk"?>
+<config>
+  <!-- 包名配置--> 
+ <package>com.credithc.tuike</package>
+  <!-- 程序主入口配置-->
+  <mainActivity>com.dangbeimarket.activity.Main</mainActivity>
+  <!-- Scheme配置-->   
+   <Scheme>taobao://planet/actor_home_page?id=2</Scheme> 
+  <!-- 白名单配置-->
+  <whiteActivity>
+  com.dangbeimarket.activity.Main
+
+  </whiteActivity>
+  <!-- 检查间隔 秒-->
+  <interval>2</interval>
+  <!-- 检查次数-->
+  <Count>10000</Count>
+</config>
+ 
